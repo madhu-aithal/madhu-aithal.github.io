@@ -166,3 +166,7 @@ You can see the full set of partials you can replace in the
 
 There's also a bunch of minor tweaks and adjustments throughout the
 theme. Hope this works for you!
+
+<!-- 
+  If you want to create a new category, then add one .md file with "layout: category" in the category directory. This will add a new section and its content can also be specified in that .md file
+ -->

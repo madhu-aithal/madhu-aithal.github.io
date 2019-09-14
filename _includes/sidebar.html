@@ -1,4 +1,5 @@
-<div id="sidebar">
+<div id="sidebar" style="padding-bottom: 8rem">
+  <img src="/assets/images/my_photo.jpg" alt="Avatar" style="border-radius: 50%;">
   <header>
     <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
       <a href="{{ "/" | relative_url }}">
@@ -8,7 +9,7 @@
         {{ site.title }}
       </a>
     </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
-    <p class="lead">{{ site.description }}</p>
+    <p class="lead" style="font-size: 1rem">{{ site.description }}</p>
   </header>
   {% include sidebar-nav-links.html %}
 
@@ -17,5 +18,5 @@
   {% endif %}
 
   {% include sidebar-icon-links.html %}
-  {% include copyright.html %}
+  <!-- {% include copyright.html %} -->
 </div>
