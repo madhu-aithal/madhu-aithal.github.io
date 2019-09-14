@@ -1,13 +1,13 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
-remote_theme: fongandrew/hydeout
+# remote_theme: fongandrew/hydeout
 
 # Setup
 title:            Madhusudhan Aithal Mahabhaleshwara
 tagline:          ''
-description:      'Coder, ML enthusiast, Was a competitive programmer'
-url:              https://fongandrew.github.io
+description:      'Coder, ML enthusiast, Competitive Programmer'
+# url:              https://fongandrew.github.io
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -15,9 +15,9 @@ baseurl:          '/'
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
 
-author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+# author:
+  # name:           'Andrew Fong'
+  # url:            https://twitter.com/fongandrewc
 
 paginate:         5
 # paginate_path:    '/page:num'
