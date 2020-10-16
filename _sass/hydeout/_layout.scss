@@ -199,7 +199,7 @@ body {
     }
 
     > * {
-      max-width: 38rem;
+      // max-width: 38rem;
       padding: 0;
     }
   }
@@ -279,7 +279,7 @@ body {
 @if $sidebar-sticky {
   @media (min-width: $large-breakpoint) {
     body {
-      align-items: flex-end;
+      // align-items: flex-end;
     }
   }
 }

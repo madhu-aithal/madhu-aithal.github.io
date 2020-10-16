@@ -6,7 +6,8 @@ highlighter:      rouge
 # Setup
 title:            Madhusudhan Aithal Mahabhaleshwara
 tagline:          ''
-description:      'ML enthusiast, Competitive Programmer'
+# description:      'ML enthusiast, Competitive Programmer'
+# description: 'Computer Science Grad student at CU Boulder'
 # url:              https://fongandrew.github.io
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
